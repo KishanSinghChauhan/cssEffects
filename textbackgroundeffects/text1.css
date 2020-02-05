@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-div video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+
+} 
+
+#head{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background:#fff;
+    font-size:30vw;
+    text-align: center;
+    text-transform: uppercase;
+    mix-blend-mode: screen;
+    line-height: 100vh; 
+
+    color: #000;
+}
